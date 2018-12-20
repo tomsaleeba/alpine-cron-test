@@ -15,3 +15,5 @@ A sandbox for playing with cron on alpine in docker
       ./docker-run-detached.sh
       ```
 
+The cron schedule is all stars (`*`) so it'll run every minute. Once you've started the container, wait until the change of the minute and you should see some log output.
+
