@@ -8,5 +8,5 @@ CRON_SCHEDULE='* * * * *'
 export OPTIONAL_ARG=${OPTIONAL_ARG:-somedefaultvalue}
 
 echo "$CRON_SCHEDULE SOME_VAR=something sh $thisDir/run.sh" > /var/spool/cron/crontabs/root
-crond -f # supplying log level (`-f 2`) doesn't seem to make a difference :S
+crond -f # supplying any log level (-l param) doesn't seem to make a difference :S
 
