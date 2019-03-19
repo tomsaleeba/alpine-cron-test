@@ -1,4 +1,4 @@
-FROM alpine:3.7
+FROM alpine:3.8
 LABEL author="Tom Saleeba"
 LABEL description="sandbox for playing with cron on alpine in docker"
 

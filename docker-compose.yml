@@ -1,0 +1,9 @@
+version: '3'
+services:
+  act:
+    build: .
+    image: tomsaleeba/alpine-cron-test:dev
+    container_name: ts_act
+    environment:
+      MANDATORY_ARG: supplied
+
